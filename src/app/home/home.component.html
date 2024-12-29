@@ -1,0 +1,23 @@
+<div class="banner">
+    <div class="banner">
+        <div class="content">
+            <img ngSrc="/assets/img/klimat-big.png" width="600" height="200" priority>
+            <h1 class="mb-3 text-primary">Czystość, która robi różnicę</h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-5 mb-5">
+    <h2 class="text-center mb-4">Nasza oferta</h2>
+    <div class="row">
+      <div class="col-lg-4 mb-4" *ngFor="let offer of offers">
+        <div class="offer-tile d-flex flex-column p-4 border rounded" [routerLink]="['/menu', offer.id]">
+          <h4>{{ offer.title }}</h4>
+          <p>{{ offer.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <app-logos-carousel></app-logos-carousel>

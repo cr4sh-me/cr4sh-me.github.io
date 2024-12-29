@@ -1,0 +1,38 @@
+.carousel-item-content {
+  width: 25%; /* 4 images per row */
+  padding: 10px; /* Compact spacing */
+  height: 150px; /* Set a fixed height for the container */
+  display: flex; /* Flexbox for centering */
+  align-items: center; /* Center the image vertically */
+  justify-content: center; /* Center the image horizontally */
+  box-sizing: border-box; /* Include padding in the total width/height */
+  margin: 5px;
+}
+
+.carousel-item img {
+  max-width: 100%; /* Prevent the image from exceeding the container's width */
+  max-height: 100%; /* Prevent the image from exceeding the container's height */
+  object-fit: contain; /* Maintain the aspect ratio */
+}
+
+
+hr {
+  background-color: var(--primary-color); /* Ensure it has the primary color */
+  height: 3px; /* Adjust height to make it thicker */
+  border: none; /* Remove the default border */
+  opacity: 1.0;
+  margin: 5px auto; /* Center the <hr> horizontally */
+}
+
+
+.carousel-item-content {
+  border-bottom: 3px solid var(--primary-color);
+}
+
+
+#logosCarousel {
+  max-width: 90%; /* Ustaw maksymalną szerokość na 80% strony */
+  margin: 0 auto; /* Wyrównaj do środka */
+  padding: 5px;
+}
+

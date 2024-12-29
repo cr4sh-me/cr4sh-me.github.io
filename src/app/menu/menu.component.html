@@ -1,0 +1,12 @@
+<div class="container mt-5 mb-5">
+    <h2 class="text-center mb-4">Nasza oferta</h2>
+    <div class="row">
+      <div class="col-lg-4 mb-4" *ngFor="let offer of offers">
+        <div class="offer-tile d-flex flex-column p-4 border rounded" [routerLink]="['/menu', offer.id]">
+          <h4>{{ offer.title }}</h4>
+          <p>{{ offer.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  

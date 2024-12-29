@@ -1,0 +1,13 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Adds some space below the image */
+}
+
+.centered-image {
+    max-width: 50%;  /* Image width is limited to the container width */
+    max-height: 80vh; /* Limits the height to 80% of the viewport height */
+    height: auto;     /* Maintain aspect ratio */
+    display: block;
+}

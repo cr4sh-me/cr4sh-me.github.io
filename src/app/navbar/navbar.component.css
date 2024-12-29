@@ -1,0 +1,18 @@
+.navbar-brand {
+    background-image: url(../../assets/img/klimat-big.png);
+    background-size: contain; /* Ensures the image fits within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    width: 150px; /* Adjust as necessary for your logo size */
+    height: 50px; /* Adjust as necessary for your logo size */
+    display: inline-block; /* Ensures the brand container behaves as an inline-block */
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-link.active-link {
+    font-weight: bold;
+}
+

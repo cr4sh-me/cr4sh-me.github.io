@@ -1,0 +1,25 @@
+.offer-tile {
+    height: 100%; /* Full container height */
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    transition: all ease 0.3s; /* Smooth transition for all changes */
+    padding: 20px; /* Add some padding inside the tiles */
+    position: relative;
+    overflow: hidden; /* Hide any overflow from inner elements */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Hover effect */
+.offer-tile:hover {
+    transform: translateY(-5px); /* Slightly lift the card */
+    box-shadow: 0px 10px 25px 3px var(--primary-color);; /* Stronger shadow on hover */
+}
+
+/* Add a subtle color effect on the header */
+.offer-tile h4 {
+    transition: color 0.3s ease; /* Smooth transition for the title color */
+}
+
+.offer-tile:hover h4 {
+    color: var(--primary-color);
+}
+

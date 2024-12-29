@@ -1,0 +1,104 @@
+
+.footer-logo {
+    max-width: 200px; /* Zwiększenie szerokości logo */
+    height: auto;
+}
+
+.footer {
+    padding: 30px 0;
+}
+
+/* Ustawienie sekcji w jednej wysokości (align top) */
+.footer .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer h1 {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.footer p, .footer .footer-links a {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Podkreślenie tekstu po najechaniu */
+}
+
+footer p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.social-links a {
+    font-size: 20px;
+    padding: 0 8px;
+}
+
+.social-links i {
+    color: var(--primary-color);
+}
+
+.text-dark-50 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Wyrównanie sekcji w stopce */
+.footer-left,
+.footer-middle,
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Zmiana na wyrównanie do góry */
+}
+
+/* Zmniejszenie marginesu w Godziny otwarcia */
+.footer-hours {
+    margin-bottom: 10px;
+}
+
+/* Stylizacja dla social media */
+.footer-social a {
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.footer-social a:hover  {
+    text-decoration: underline;
+}
+
+.footer-social i {
+    margin-right: 8px;
+}
+
+/* Stylizacja dla nagłówków w stopce */
+h5 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Stylizacja dla sekcji copyright */
+.text-center {
+    margin-top: 40px;
+}
+
+.footer .bi {
+    margin-right: 5px;
+}
